@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb71d66-c39e-49f4-bf7e-d06562722464" name="Changes" comment="" />
+    <list default="true" id="3fb71d66-c39e-49f4-bf7e-d06562722464" name="Changes" comment="change gradle.xml and workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703492750315</updated>
     </task>
+    <task id="LOCAL-00001" summary="change gradle.xml and workspace.xml">
+      <option name="closed" value="true" />
+      <created>1733822969848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733822969848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change gradle.xml and workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gradle.xml and workspace.xml" />
   </component>
 </project>

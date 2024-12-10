@@ -1,5 +1,6 @@
 package tests;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.junit5.WireMockExtension;
@@ -58,7 +59,7 @@ public class WireMockTests {
 
     @Test
     @SneakyThrows
-    public void testProductsSizeIsNotEmpty() {
+    public void testProductsSizeIsNotEmpty() throws JsonProcessingException {
         List<Product> products = generateProducts(10);
         String jsonProducts = mapper.writeValueAsString(products);
 
